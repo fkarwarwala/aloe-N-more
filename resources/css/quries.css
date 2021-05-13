@@ -1,0 +1,247 @@
+/* BIG TABLET POTRAIT 1023px (WIDTH SMALLER THAN 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+    .section-testimonials {
+        height: 100%;
+    }
+    .form-box .row {
+        margin-left: 8%;
+    }
+}
+
+/* TABLET POTRAIT VIEW 767px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 40px 0;
+    }
+
+    .hero-text-box {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .gallery-photo img {
+        height: 220px;
+    }
+
+    .iphone-img {
+        margin-top: 16%;
+    }
+
+    .trending-box img {
+        height: 180px;
+    }
+    .trending-box {
+        font-size: 85%;
+        word-spacing: 1px;
+        display: inline-block;
+    }
+
+    .section-testimonials {
+        height: 100%;
+    }
+    .form-labels {
+        width: 32%;
+    }
+    input[type='text'],
+    input[type='email'],
+    textarea {
+        width: 100%;
+        font-size: 90%;
+        padding: 5px;
+    }
+    input[type='submit'] {
+        margin: 0;
+    }
+}
+
+/* FROM SMALL PHONE 481px TO SMALL TABLET 767px */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+        text-align: center;
+    }
+
+    section {
+        padding: 35px 0;
+    }
+    .col {
+        width: 100%;
+    }
+
+    .btn-more:link,
+    .btn-more:visited {
+        margin-bottom: 5px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-nav {
+        float: left;
+        margin-left: 22%;
+    }
+    .main-nav li {
+        display: block;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 3px 0px;
+        font-size: 100%;
+        text-align: start;
+    }
+
+    .logo {
+        height: 80px;
+    }
+
+    .send-btn {
+        margin: 0 auto;
+    }
+
+    /* STICKY NAVIGATION */
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        font-size: 100%;
+        padding: 3px 0px;
+        text-align: start;
+    }
+
+    .sticky .main-nav {
+        margin-top: -25px;
+        margin-left: 25%;
+    }
+
+    .sticky .mobile-nav-icon span {
+        color: #555;
+        margin-top: -25px;
+        display: block;
+    }
+
+    .sticky .nav-title {
+        display: inline-block;
+        margin-top: 15px;
+        text-transform: uppercase;
+        word-spacing: 1.5px;
+        letter-spacing: 1px;
+        color: #788652;
+        margin-left: -15px;
+    }
+
+    .sticky .logo-nav {
+        float: left;
+        height: 52px;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+
+    .featurelogo {
+        font-size: 220% !important;
+        margin-left: 0;
+    }
+    .steps-box:first-child {
+        text-align: center;
+        padding: 0%;
+    }
+    .iphone-img {
+        margin-top: -15px;
+        width: 60%;
+    }
+    .work-step div {
+        height: 40px;
+        width: 40px;
+        padding: 7px;
+        margin-right: 12px;
+    }
+    .work-step {
+        margin-bottom: 20px;
+    }
+    .work-step:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .trending-box {
+        line-height: 100%;
+    }
+
+    .trending-box img {
+        width: auto;
+    }
+    blockquote {
+        padding: 1%;
+        line-height: 120%;
+        margin-top: 20px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+
+    input[type='text'],
+    input[type='email'],
+    textarea {
+        width: 100%;
+        font-size: 80%;
+        padding: 7.5px;
+    }
+    input[type='submit'] {
+        margin: 0;
+    }
+
+    .form-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-box .row {
+        line-height: 115%;
+    }
+}
+
+/* FOR SMALLER PHONES  0px TO 480px */
+@media only screen and (max-width: 480px) {
+    .gallery-photo img {
+        height: 130px;
+    }
+
+    .footer-nav li,
+    .footer-nav-icons li {
+        display: inline-block;
+        margin-right: 12px;
+    }
+
+    .footer-nav li:last-child,
+    .footer-nav-icons li:last-child {
+        margin-right: 0px;
+    }
+    .send-btn {
+        margin: 0 auto;
+    }
+}
